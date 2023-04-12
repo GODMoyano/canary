@@ -1,45 +1,193 @@
 local raids = {
-	-- Weekly
-	--Segunda-Feira
+
 	['Monday'] = {
-		['06:00'] = {raidName = 'RatsThais'},
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
 
-	--Terça-Feira
-	['Tuesday'] = {
-		['16:00'] = {raidName = 'Midnight Panther'}
+	['Tuesday'] = {	
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	--Quarta-Feira
+	
 	['Wednesday'] = {
-		['12:00'] = {raidName = 'Draptor'}
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	--Quinta-Feira
-	['Thursday'] = {
-		['19:00'] = {raidName = 'Undead Cavebear'}
+	
+	['Thursday'] = {		
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	--Sexta-feira
-	['Friday'] = {
-		['06:00'] = {raidName = 'Titanica'}
+	
+	['Friday'] = {	
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	--Sábado
-	['Saturday'] = {
-		['20:00'] = {raidName = 'Draptor'}
+	
+	['Saturday'] = {	
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = 'tigers'},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	--Domingo
+	
 	['Sunday'] = {
-		['15:00'] = {raidName = 'Midnight Panther'},
-		['13:00'] = {raidName = 'Orc Backpack'}
+		['12:00'] = {raidName = ''},
+		['12:30'] = {raidName = ''},
+		['13:00'] = {raidName = ''},
+		['13:30'] = {raidName = ''},
+		['14:00'] = {raidName = ''},		
+		['14:30'] = {raidName = ''},
+		['15:00'] = {raidName = ''},
+		['15:30'] = {raidName = ''},
+		['16:00'] = {raidName = ''},
+		['16:30'] = {raidName = ''},
+		['17:00'] = {raidName = ''},
+		['17:30'] = {raidName = ''},
+		['18:00'] = {raidName = ''},		
+		['18:30'] = {raidName = ''},
+		['19:00'] = {raidName = ''},
+		['19:30'] = {raidName = ''},
+		['20:00'] = {raidName = ''},
+		['20:30'] = {raidName = ''},
+		['21:00'] = {raidName = ''},
+		['21:30'] = {raidName = ''},		
+		['22:30'] = {raidName = ''},
+		['22:00'] = {raidName = ''},
+		['23:00'] = {raidName = ''},
+		['23:30'] = {raidName = ''},
 	},
-
-	-- By date (Day/Month)
-	['31/10'] = {
-		['16:00'] = {raidName = 'Halloween Hare'}
-	}
 }
 
 local spawnRaids = GlobalEvent("spawn raids")

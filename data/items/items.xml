@@ -7460,15 +7460,16 @@
 		<attribute key="weight" value="500"/>
 	</item>
 	<item id="3549" article="a" name="pair of soft boots">
+		<attribute key="description" value="FAST Regeneration"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="showAttributes" value="1"/>
-		<attribute key="manaticks" value="6000"/>
-		<attribute key="managain" value="12"/>
-		<attribute key="healthticks" value="6000"/>
-		<attribute key="healthgain" value="3"/>
+		<attribute key="manaticks" value="3000"/>
+		<attribute key="managain" value="200"/>
+		<attribute key="healthticks" value="3000"/>
+		<attribute key="healthgain" value="200"/>
 		<attribute key="duration" value="14400"/>
 		<attribute key="transformdeequipto" value="6529"/>
-		<attribute key="decayTo" value="6530"/>
+		<attribute key="decayTo" value="3079"/>
 		<attribute key="weight" value="800"/>
 	</item>
 	<item id="3550" name="patched boots">

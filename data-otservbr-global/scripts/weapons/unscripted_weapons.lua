@@ -1530,8 +1530,7 @@ local weapons = {
 		itemid = 25759,
 		type = WEAPON_MISSILE,
 		level = 120,
-		unproperly = true,
-		breakchance = 30
+		unproperly = true
 	},
 	{
 		-- spectral bolt
@@ -1546,8 +1545,7 @@ local weapons = {
 		itemid = 25735,
 		type = WEAPON_MISSILE,
 		level = 60,
-		unproperly = true,
-		breakchance = 40
+		unproperly = true
 	},
 	{
 		-- dream blossom staff
@@ -2136,8 +2134,7 @@ local weapons = {
 		itemid = 21158,
 		type = WEAPON_MISSILE,
 		level = 60,
-		unproperly = true,
-		breakchance = 2
+		unproperly = true
 	},
 	{
 		-- umbral master crossbow
@@ -2473,7 +2470,6 @@ local weapons = {
 		-- mean paladin spear
 		itemid = 17110,
 		type = WEAPON_MISSILE,
-		breakchance = 3,
 		vocation = {
 			{"None", true}
 		}
@@ -4272,24 +4268,21 @@ local weapons = {
 		itemid = 7378,
 		type = WEAPON_MISSILE,
 		level = 25,
-		unproperly = true,
-		breakchance = 3
+		unproperly = true
 	},
 	{
 		-- assassin star
 		itemid = 7368,
 		type = WEAPON_MISSILE,
 		level = 80,
-		unproperly = true,
-		breakchance = 33
+		unproperly = true
 	},
 	{
 		-- enchanted spear
 		itemid = 7367,
 		type = WEAPON_MISSILE,
 		level = 42,
-		unproperly = true,
-		breakchance = 1
+		unproperly = true
 	},
 	{
 		-- onyx arrow
@@ -4371,8 +4364,7 @@ local weapons = {
 		itemid = 3347,
 		type = WEAPON_MISSILE,
 		level = 20,
-		unproperly = true,
-		breakchance = 6
+		unproperly = true
 	},
 	{
 		-- ripper lance
@@ -4740,8 +4732,7 @@ local weapons = {
 	{
 		-- throwing knife
 		itemid = 3298,
-		type = WEAPON_MISSILE,
-		breakchance = 7
+		type = WEAPON_MISSILE
 	},
 	{
 		-- serpent sword
@@ -4806,8 +4797,7 @@ local weapons = {
 	{
 		-- throwing star
 		itemid = 3287,
-		type = WEAPON_MISSILE,
-		breakchance = 10
+		type = WEAPON_MISSILE
 	},
 	{
 		-- mace
@@ -4882,8 +4872,7 @@ local weapons = {
 	{
 		-- spear
 		itemid = 3277,
-		type = WEAPON_MISSILE,
-		breakchance = 3
+		type = WEAPON_MISSILE
 	},
 	{
 		-- hatchet
@@ -5113,8 +5102,7 @@ local weapons = {
 	{
 		-- small stone
 		itemid = 1781,
-		type = WEAPON_MISSILE,
-		breakchance = 3
+		type = WEAPON_MISSILE
 	}
 }
 

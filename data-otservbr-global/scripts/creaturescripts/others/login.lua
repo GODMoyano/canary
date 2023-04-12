@@ -21,19 +21,13 @@ end
 local playerLogin = CreatureEvent("PlayerLogin")
 
 function playerLogin.onLogin(player)
-	local items = {
-		{3003, 1},
-		{3031, 3}
-	}
 	if player:getLastLoginSaved() == 0 then
 		player:sendOutfitWindow()
-		local backpack = player:addItem(2854)
 		if backpack then
 			for i = 1, #items do
 				backpack:addItem(items[i][1], items[i][2])
 			end
 		end
-		player:addItem(2920, 1, true, 1, CONST_SLOT_AMMO)
 		db.query('UPDATE `players` SET `istutorial` = 0 where `id`='..player:getGuid())
 		-- Open channels
 		if table.contains({TOWNS_LIST.DAWNPORT, TOWNS_LIST.DAWNPORT_TUTORIAL}, player:getTown():getId())then
@@ -43,7 +37,7 @@ function playerLogin.onLogin(player)
 			player:openChannel(5) -- Advertsing main
 		end
 	else
-		player:sendTextMessage(MESSAGE_STATUS, SERVER_MOTD)
+		player:sendTextMessage(MESSAGE_STATUS, "Welcome to " .. SERVER_NAME .. "!")
 		player:sendTextMessage(MESSAGE_LOGIN, string.format("Your last visit in ".. SERVER_NAME ..": %s.", os.date("%d. %b %Y %X", player:getLastLoginSaved())))
 	end
 
@@ -227,7 +221,7 @@ function playerLogin.onLogin(player)
 	end
 
 	-- Set Client XP Gain Rate --
-	if configManager.getBoolean(configKeys.XP_DISPLAY_MODE) then
+	if Game.getStorageValue(GlobalStorage.XpDisplayMode) > 0 then
 		local baseRate = player:getFinalBaseRateExperience()
 		player:setBaseXpGain(baseRate * 100)
 	end

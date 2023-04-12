@@ -15,6 +15,7 @@ local questTable = {
 	{storage = Storage.BigfootBurden.Warzone1Access, storageValue = 2},
 	{storage = Storage.BigfootBurden.Warzone2Access, storageValue = 2},
 	{storage = Storage.BigfootBurden.Warzone3Access, storageValue = 2},
+	
 	{storage = Storage.DangerousDepths.Questline, storageValue = 10},
 	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneVI, storageValue = 10},
 	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneV, storageValue = 10},
@@ -22,6 +23,7 @@ local questTable = {
 	{storage = Storage.DangerousDepths.Dwarves.Status, storageValue = 10},
 	{storage = Storage.DangerousDepths.Scouts.Status, storageValue = 10},
 	{storage = Storage.DangerousDepths.Gnomes.Status, storageValue = 10},
+	
 	{storage = Storage.InServiceofYalahar.Questline, storageValue = 51},
 	{storage = Storage.InServiceofYalahar.Mission01, storageValue = 6},
 	{storage = Storage.InServiceofYalahar.Mission02, storageValue = 8},
@@ -59,6 +61,7 @@ local questTable = {
 	{storage = Storage.InServiceofYalahar.DoorToLastFight, storageValue = 1},
 	{storage = Storage.InServiceofYalahar.DoorToMatrix, storageValue = 1},
 	{storage = Storage.InServiceofYalahar.DoorToQuara, storageValue = 1},
+	
 	{storage = Storage.CultsOfTibia.Questline, storageValue = 7},
 	{storage = Storage.CultsOfTibia.Minotaurs.jamesfrancisTask, storageValue = 1},
 	{storage = Storage.CultsOfTibia.Minotaurs.Mission, storageValue = 1},
@@ -90,6 +93,7 @@ local questTable = {
 	{storage = Storage.CultsOfTibia.Misguided.Exorcisms, storageValue = 1},
 	{storage = Storage.CultsOfTibia.Misguided.Time, storageValue = 1},
 	{storage = Storage.CultsOfTibia.Misguided.bossTimer, storageValue = 1},
+	
 	{storage = Storage.ExplorerSociety.QuestLine, storageValue = 1},
 	{storage = Storage.ExplorerSociety.QuestLine, storageValue = 4},
 	{storage = Storage.ExplorerSociety.QuestLine, storageValue = 7},
@@ -109,6 +113,7 @@ local questTable = {
 	{storage = Storage.ExplorerSociety.QuestLine, storageValue = 58},
 	{storage = Storage.ExplorerSociety.QuestLine, storageValue = 61},
 	{storage = Storage.ExplorerSociety.CalassaQuest, storageValue = 2},
+	
 	{storage = Storage.ForgottenKnowledge.Tomes, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.LastLoreKilled, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.TimeGuardianKilled, storageValue = 1},
@@ -118,10 +123,12 @@ local questTable = {
 	{storage = Storage.ForgottenKnowledge.LloydKilled, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.LadyTenebrisKilled, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessMachine, storageValue = 1},
+	
 	{storage = Storage.BarbarianTest.Questline, storageValue = 1},
 	{storage = Storage.BarbarianTest.Mission01, storageValue = 3},
 	{storage = Storage.BarbarianTest.Mission02, storageValue = 3},
 	{storage = Storage.BarbarianTest.Mission03, storageValue = 3},
+	
 	{storage = Storage.ChildrenoftheRevolution.Questline, storageValue = 21},
 	{storage = Storage.ChildrenoftheRevolution.Mission00, storageValue = 2},
 	{storage = Storage.ChildrenoftheRevolution.Mission01, storageValue = 3},
@@ -133,6 +140,7 @@ local questTable = {
 	{storage = Storage.ChildrenoftheRevolution.SpyBuilding02, storageValue = 1},
 	{storage = Storage.ChildrenoftheRevolution.SpyBuilding03, storageValue = 1},
 	{storage = Storage.ChildrenoftheRevolution.StrangeSymbols, storageValue = 1},
+	
 	{storage = Storage.DjinnWar.Faction.Greeting, storageValue = 2},
 	{storage = Storage.DjinnWar.Faction.Marid, storageValue = 2},
 	{storage = Storage.DjinnWar.Faction.Efreet, storageValue = 2},
@@ -145,6 +153,7 @@ local questTable = {
 	{storage = Storage.DjinnWar.MaridFaction.Mission02, storageValue = 2},
 	{storage = Storage.DjinnWar.MaridFaction.RataMari, storageValue = 2},
 	{storage = Storage.DjinnWar.MaridFaction.Mission03, storageValue = 3},
+	
 	{storage = Storage.TheWayToYalahar.Questline, storageValue = 1},
 	{storage = Storage.SearoutesAroundYalahar.TownsCounter, storageValue = 1},
 	{storage = Storage.SearoutesAroundYalahar.AbDendriel, storageValue = 1},
@@ -155,8 +164,10 @@ local questTable = {
 	{storage = Storage.SearoutesAroundYalahar.Thais, storageValue = 1},
 	{storage = Storage.SearoutesAroundYalahar.LibertyBay, storageValue = 1},
 	{storage = Storage.SearoutesAroundYalahar.Carlin, storageValue = 1},
+	
 	{storage = Storage.HiddenCityOfBeregar.DefaultStart, storageValue = 1},
 	{storage = Storage.HiddenCityOfBeregar.GoingDown, storageValue = 1},
+	
 	{storage = Storage.TheIceIslands.Questline, storageValue = 12},
 	{storage = Storage.TheIceIslands.Mission01, storageValue = 3},
 	{storage = Storage.TheIceIslands.Mission02, storageValue = 5},
@@ -170,6 +181,7 @@ local questTable = {
 	{storage = Storage.TheIceIslands.Mission10, storageValue = 2},
 	{storage = Storage.TheIceIslands.Mission11, storageValue = 2},
 	{storage = Storage.TheIceIslands.Mission12, storageValue = 6},
+	
 	{storage = Storage.TheInquisition.Questline, storageValue = 25},
 	{storage = Storage.TheInquisition.Mission01, storageValue = 7},
 	{storage = Storage.TheInquisition.Mission02, storageValue = 3},
@@ -180,9 +192,10 @@ local questTable = {
 	{storage = Storage.TheInquisition.Mission07, storageValue = 1},
 	{storage = Storage.TheInquisition.GrofGuard, storageValue = 1},
 	{storage = Storage.TheInquisition.KulagGuard, storageValue = 1},
-	{storage = Storage.TheInquisition.TimGuard, storageValue = 1},
+	{storage = Storage.TheInquisition.TimGuard, storageValue = 1},	
 	{storage = Storage.TheInquisition.WalterGuard, storageValue = 1},
 	{storage = Storage.TheInquisition.StorkusVampiredust, storageValue = 1},
+	
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Questline, storageValue = 29},
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Mission01, storageValue = 3},
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Mission02[1], storageValue = 4},
@@ -205,6 +218,7 @@ local questTable = {
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Mission05.Wydrin, storageValue = 1},
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Mission05.Telas, storageValue = 1},
 	{storage = Storage.Quest.U8_54.TheNewFrontier.Mission05.Humgolf, storageValue = 1},
+	
 	{storage = Storage.TheShatteredIsles.DefaultStart, storageValue = 3},
 	{storage = Storage.TheShatteredIsles.TheGovernorDaughter, storageValue = 3},
 	{storage = Storage.TheShatteredIsles.TheErrand, storageValue = 2},
@@ -216,6 +230,7 @@ local questTable = {
 	{storage = Storage.TheShatteredIsles.Shipwrecked, storageValue = 2},
 	{storage = Storage.TheShatteredIsles.DragahsSpellbook, storageValue = 1},
 	{storage = Storage.TheShatteredIsles.TheCounterspell, storageValue = 4},
+	
 	{storage = Storage.ThievesGuild.Quest, storageValue = 1},
 	{storage = Storage.ThievesGuild.Mission01, storageValue = 2},
 	{storage = Storage.ThievesGuild.Mission02, storageValue = 3},
@@ -225,6 +240,7 @@ local questTable = {
 	{storage = Storage.ThievesGuild.Mission06, storageValue = 4},
 	{storage = Storage.ThievesGuild.Mission07, storageValue = 2},
 	{storage = Storage.ThievesGuild.Mission08, storageValue = 1},
+	
 	{storage = Storage.TravellingTrader.Mission01, storageValue = 1},
 	{storage = Storage.TravellingTrader.Mission01, storageValue = 2},
 	{storage = Storage.TravellingTrader.Mission02, storageValue = 5},
@@ -233,18 +249,24 @@ local questTable = {
 	{storage = Storage.TravellingTrader.Mission05, storageValue = 3},
 	{storage = Storage.TravellingTrader.Mission06, storageValue = 2},
 	{storage = Storage.TravellingTrader.Mission07, storageValue = 1},
+	
 	{storage = Storage.SvargrondArena.QuestLogGreenhorn, storageValue = 1},
+	
 	{storage = Storage.TibiaTales.DefaultStart, storageValue = 1},
 	{storage = Storage.TibiaTales.ToAppeaseTheMightyQuest, storageValue = 1},
+	
 	{storage = 12450, storageValue = 6},
 	{storage = 12330, storageValue = 1},
 	{storage = 12332, storageValue = 13},
 	{storage = 12333, storageValue = 3},
+	
 	{storage = Storage.FriendsandTraders.DefaultStart, storageValue = 1},
 	{storage = Storage.FriendsandTraders.TheSweatyCyclops, storageValue = 2},
 	{storage = Storage.FriendsandTraders.TheMermaidMarina, storageValue = 2},
 	{storage = Storage.FriendsandTraders.TheBlessedStake, storageValue = 12},
+	
 	{storage = 100157, storageValue = 1},
+	
 	{storage = Storage.WrathoftheEmperor.Questline, storageValue = 29},
 	{storage = Storage.WrathoftheEmperor.Mission01, storageValue = 3},
 	{storage = Storage.WrathoftheEmperor.Mission02, storageValue = 3},
@@ -256,10 +278,13 @@ local questTable = {
 	{storage = Storage.WrathoftheEmperor.Mission08, storageValue = 2},
 	{storage = Storage.WrathoftheEmperor.Mission09, storageValue = 2},
 	{storage = Storage.WrathoftheEmperor.Mission10, storageValue = 1},
+	
 	{storage = Storage.TheApeCity.Started, storageValue = 1},
 	{storage = Storage.TheApeCity.Questline, storageValue = 18},
+	
 	{storage = Storage.Oramond.QuestLine, storageValue = 1},
 	{storage = Storage.Oramond.MissionToTakeRoots, storageValue = 3000},
+	
 	{storage = Storage.DangerousDepths.Questline, storageValue = 1},
 	{storage = Storage.DangerousDepths.Dwarves.Home, storageValue = 2},
 	{storage = Storage.DangerousDepths.Dwarves.Subterranean, storageValue = 2},
@@ -268,31 +293,60 @@ local questTable = {
 	{storage = Storage.DangerousDepths.Gnomes.Charting, storageValue = 2},
 	{storage = Storage.DangerousDepths.Scouts.Growth, storageValue = 2},
 	{storage = Storage.DangerousDepths.Scouts.Diremaw, storageValue = 2},
+	
 	{storage = Storage.Quest.U11_40.ThreatenedDreams.QuestLine, storageValue = 1},
 	{storage = Storage.Quest.U11_40.ThreatenedDreams.Mission01[1], storageValue = 16},
+	
 	{storage = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 1},
 	{storage = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 2},
+	
 	{storage = Storage.Quest.U10_55.Dawnport.Questline, storageValue = 1},
 	{storage = Storage.Quest.U10_55.Dawnport.GoMain, storageValue = 1},
+	
 	{storage = Storage.ForgottenKnowledge.AccessDeath, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessViolet, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessEarth, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessFire, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessIce, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessGolden, storageValue = 1},
+	
 	{storage = Storage.Quest.U10_80.Grimvale.AncientFeudDoors, storageValue = 1},
 	{storage = Storage.Quest.U10_80.Grimvale.AncientFeudShortcut, storageValue = 1},
+	
 	{storage = Storage.Kilmaresh.AccessDoor, storageValue = 1},
 	{storage = Storage.Kilmaresh.CatacombDoors, storageValue = 1},
+	
 	{storage = Storage.Quest.U12_00.TheDreamCourts.AccessDoors, storageValue = 1},
 	{storage = Storage.Quest.U12_00.TheDreamCourts.HauntedHouseAccess, storageValue = 1},
 	{storage = Storage.Quest.U12_00.TheDreamCourts.BuriedCathedralAccess, storageValue = 1},
 	{storage = Storage.Quest.U12_00.TheDreamCourts.DreamScarAccess, storageValue = 1},
+	
+	{storage = Storage.Quest.U12_20.GraveDanger.QuestLine, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Edron, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.DarkCathedral, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Ghostlands, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Cormaya, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.FemorHills, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Ankrahmun, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Kilmaresh, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Vengoth, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Darashia, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Thais, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.Orclands, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Graves.IceIslands, storageValue = 2},
+	{storage = Storage.Quest.U12_20.GraveDanger.Cobra, storageValue = 2},
+	
+	{storage = Storage.TheSecretLibrary.TheOrderOfTheFalcon.OberonTimer, storageValue = 1},
+	
+	{storage = Storage.Quest.U12_40.TheOrderOfTheLion.QuestLine, storageValue = 1},
 	{storage = Storage.Quest.U12_40.TheOrderOfTheLion.AccessEastSide, storageValue = 1},
 	{storage = Storage.Quest.U12_40.TheOrderOfTheLion.AccessSouthernSide, storageValue = 1},
+	
 	{storage = Storage.Quest.U12_60.APiratesTail.TentuglyDoor, storageValue = 1},
 	{storage = Storage.Quest.U12_60.APiratesTail.RascacoonShortcut, storageValue = 1},
+	
 	{storage = Storage.Quest.U12_70.AdventuresOfGalthen.AccessDoor, storageValue = 1},
+	
 }
 
 local function playerFreeQuestStart(playerId, index)

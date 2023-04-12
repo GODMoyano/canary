@@ -14730,14 +14730,14 @@ local items = {
 		itemid = 6529,
 		type = "equip",
 		slot = "feet",
-		level = 10
+		level = 1
 	},
 	{
 		-- pair of soft boots
 		itemid = 6529,
 		type = "deequip",
 		slot = "feet",
-		level = 10
+		level = 1
 	},
 	{
 		-- tortoise shield
@@ -15515,14 +15515,14 @@ local items = {
 		itemid = 3549,
 		type = "equip",
 		slot = "feet",
-		level = 10
+		level = 1
 	},
 	{
 		-- pair of soft boots
 		itemid = 3549,
 		type = "deequip",
 		slot = "feet",
-		level = 10
+		level = 1
 	},
 	{
 		-- scythe

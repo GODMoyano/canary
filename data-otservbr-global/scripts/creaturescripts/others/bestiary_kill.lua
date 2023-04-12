@@ -4,13 +4,15 @@ function bestiaryOnKill.onKill(player, creature, lastHit)
 		return true
 	end
 
-	local bestiaryMultiplier = (configManager.getNumber(configKeys.BESTIARY_KILL_MULTIPLIER) or 1)
 	for cid, damage in pairs(creature:getDamageMap()) do
 		local participant = Player(cid)
 		if participant and participant:isPlayer() then
-			participant:addBestiaryKill(creature:getName(), bestiaryMultiplier)
+			local bestAmount = 3 --(default=1) how much will increase after kill a monter in bestiary
+			for i = bestAmount, 1, -1 do 
+			participant:addBestiaryKill(creature:getName())
+			end
 		end
-	end
+	  end
 
 	return true
 end
